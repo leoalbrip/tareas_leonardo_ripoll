@@ -1,0 +1,271 @@
+/*general*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comic Neue";
+}
+
+p {
+    text-indent: 0px;
+    font-size: 25px;
+}
+
+p.sangria {
+    text-indent: 25px;
+    font-size: 25px;
+}
+
+article {
+    padding: 18px;
+}
+
+
+/*header*/
+
+figure.principal {
+    background: url('../img/design1_image2.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+figure h1.titulo {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    font-size: 65px;
+    text-align: center;
+    color: #5fa199;
+    -webkit-text-stroke: 2px black;
+}
+
+.logo {
+    position: relative;
+    left: 580px;
+    bottom: 185px;
+    z-index: 1;
+}
+
+article.cartel {
+    font-size: 25px;
+    color: #f8e12e;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    bottom: 210px;
+    padding: 5px;
+    border: 3px #5fa199 solid;
+    box-sizing: border-box;
+}
+
+a.no_local {
+    color: #f8e12e;
+    box-sizing: border-box;
+    padding: 2px 10px;
+    background-color: #5fa199;
+    font-size: 30px;
+    border: 1px black solid;
+    border-radius: 30px;
+    box-shadow: 2px 2px gray;
+    margin: 0 60px;
+    text-decoration: none;
+}
+
+a.local {
+    color: #5fa199;
+    box-sizing: border-box;
+    padding: 2px 10px;
+    background-color: #f8e12e;
+    font-size: 30px;
+    border: 1px black solid;
+    border-radius: 30px;
+    box-shadow: 2px 2px gray;
+    margin: 0 60px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 365px;
+    background-color: black;
+    box-sizing: content-box;
+    width: 1350px;
+    padding: 10px 0;
+    border: 3px #5fa199 solid;
+}
+
+
+/*casa*/
+
+.casa {
+    box-sizing: content-box;
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+    border: 2px #5fa199 solid;
+    border-radius: 10px;
+}
+
+.casa_fondo {
+    background: url('../img/hockey1.jpg');
+    opacity: 0.5;
+    width: 1200px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.casa_cuerpo {
+    font-size: 35px;
+    position: relative;
+    bottom: 400px;
+}
+
+/*acerca*/
+
+.acerca {
+    box-sizing: content-box;
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+    border: 2px #5fa199 solid;
+    border-radius: 10px;
+}
+
+.acerca_fondo {
+    background: url('../img/hockey2.jpg');
+    opacity: 0.5;
+    width: 1200px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.acerca_cuerpo {
+    font-size: 35px;
+    position: relative;
+    bottom: 600px;
+}
+
+
+/*contacto*/
+
+.contacto_cuerpo {
+    position: relative;
+    bottom: 350px;
+    color: black;
+    font-size: 30px;
+}
+
+.contacto {
+    box-sizing: content-box;
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+    border: 2px #5fa199 solid;
+    border-radius: 10px;
+}
+
+.contacto_fondo {
+    background: url('../img/hockey3.jpg');
+    opacity: 0.5;
+    width: 1200px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.email {
+    display: inline;
+    font-size: 25px;
+    padding: 0px;
+    border: 0px;
+    color: blue;
+    box-shadow: 0 0;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+/*normas*/
+
+.normas {
+    position: relative;
+    bottom: 100px;
+    left: 140px;
+    padding: 50px 30px;
+    box-sizing: content-box;
+    width: 960px;
+    height: 1350px;
+    border: 2px #5fa199 solid;
+    background-color: #f8e12e;
+}
+
+ol.ordenada_letra {
+    list-style-type: lower-alpha;
+
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+li {
+    font-size: 25px;
+    text-indent: 0px;
+}
+
+.centrado {
+    text-align: center;
+    font-size: 30px;
+}
+
+li h2 {
+    font-size: 25px;
+}
+
+
+/*juego*/
+
+.juego {
+    position: relative;
+    bottom: 100px;
+    left: 140px;
+    padding: 50px 30px;
+    box-sizing: content-box;
+    width: 960px;
+    height: 1200px;
+    border: 2px #5fa199 solid;
+    background-color: #f8e12e;   
+}
+
+.juego_tabla {
+border-spacing: 30px;
+padding-left: 100px;
+
+}
+
+tr {
+    font-size: 25px;
+}
